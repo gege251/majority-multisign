@@ -57,7 +57,7 @@ signReq = [frac| (1, 2) |] -- 0.5
 
 -- | Maximum number of signers allowed
 maximumSigners :: Natural
-maximumSigners = [nat| 10 |]
+maximumSigners = [nat| 100 |]
 
 {-# INLINEABLE getMinSigners #-}
 
